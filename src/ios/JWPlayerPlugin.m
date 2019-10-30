@@ -200,14 +200,14 @@
     [self initAirPlay];
 }
 
-- (void)loadPlaylist:(CDVInvokedUrlCommand *)command
+/**- (void)loadPlaylist:(CDVInvokedUrlCommand *)command
 {
     if (self.player != NULL) {
         NSArray *playlist = [command argumentAtIndex:0];
         NSMutableArray *playlistItems = [self parsePlaylistItemsWithArray:playlist];
         [self.player loadPlaylist:playlistItems];
     }
-}
+}*/
 
 - (void)load:(CDVInvokedUrlCommand *)command
 {
@@ -304,12 +304,12 @@
     }
 }
 
--(void)setCurrentQuality:(CDVInvokedUrlCommand *)command
+/**-(void)setCurrentQuality:(CDVInvokedUrlCommand *)command
 {
     if (self.player) {
         [self.player setCurrentQualityLevel:[[command argumentAtIndex:0] intValue]];
     }
-}
+}*/
 
 - (void)bringToFront:(CDVInvokedUrlCommand *)command
 {
