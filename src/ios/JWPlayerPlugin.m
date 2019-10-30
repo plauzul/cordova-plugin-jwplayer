@@ -1,7 +1,6 @@
 #import "JWPlayerPlugin.h"
 #import <Cordova/CDVAvailability.h>
 #import <MediaPlayer/MediaPlayer.h>
-#import <GoogleCast/GoogleCast.h>
 
 @interface JWPlayerPlugin ()
 
