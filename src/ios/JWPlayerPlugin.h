@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
-#import <JWPlayer-iOS-SDK/JWPlayerController.h>
+#import <JWPlayer_iOS_SDK/JWPlayerController.h>
 
 @interface JWPlayerPlugin : CDVPlugin <JWPlayerDelegate> {
 
